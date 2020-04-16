@@ -11,7 +11,7 @@
  Target Server Version : 50540
  File Encoding         : 65001
 
- Date: 14/04/2020 11:08:45
+ Date: 16/04/2020 09:55:07
 */
 
 SET NAMES utf8mb4;
@@ -26,7 +26,7 @@ CREATE TABLE `master`  (
   `gname` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '管理员名称',
   `gpassword` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '管理员密码',
   PRIMARY KEY (`gid`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of master
@@ -40,7 +40,7 @@ DROP TABLE IF EXISTS `orders`;
 CREATE TABLE `orders`  (
   `number` int(255) NOT NULL COMMENT '订单号',
   `rid` int(255) NOT NULL COMMENT '房间号',
-  `uname` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户名称',
+  `uid` int(255) NOT NULL COMMENT '用户id',
   `date` datetime NOT NULL COMMENT '入住时间',
   `uphone` int(255) NOT NULL COMMENT '联系方式',
   `rprice` double(255, 2) NOT NULL COMMENT '房间价格'
