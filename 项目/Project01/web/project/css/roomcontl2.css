@@ -1,0 +1,73 @@
+#div{
+    height: 50px;
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+.span1{
+    position: relative;
+    right: -50px;
+    bottom: -15px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.span2{
+    position: relative;
+    right: -90px;
+    bottom: -13px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.p1{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    color: darkgray;
+}
+.p2{
+    position: relative;
+    top: -75px;
+}
+.img1{
+    position: relative;
+    bottom: -6px;
+}
+.input1{
+    position: relative;
+    right: -890px;
+    top: -45px;
+    background-color: blue;
+    color: white;
+    outline:medium ;
+}
+#div1{
+    background: whitesmoke;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 90px;
+    right: 750px;
+}
+form{
+    position: relative;
+    left: 30px;
+    bottom: -15px;
+}
+.input2{
+    background-color: blue;
+    color: white;
+    border-radius: 25px 0px;
+}
+#div2{
+    position: relative;
+    right: 4px;
+    top: -76px;
+    width: 760px;
+    height: 50px;
+    padding: -10px -10px;
+    background-color: beige;
+    border-radius: 50px;
+    position: relative;
+}
