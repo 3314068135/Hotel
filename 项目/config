@@ -1,0 +1,11 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "Hotel"]
+	url = git@github.com:3314068135/Hotel.git
+	fetch = +refs/heads/*:refs/remotes/Hotel/*
+	puttykeyfile = C:\\Users\\hwj\\.ssh\\id_rsa
+	pushurl = git@github.com:3314068135/Hotel.git

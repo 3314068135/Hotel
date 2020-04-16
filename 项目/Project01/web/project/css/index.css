@@ -1,0 +1,146 @@
+#header{
+    height: 50px;
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+img{
+    position: relative;
+    top: 20px;
+}
+.span1{
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.span2{
+    position: relative;
+    right: -30px;
+    bottom: -15px;
+}
+.span3{
+    position: relative;
+    left: 790px;
+    top: 15px;
+    color: aqua;
+}
+.p1{
+    position: relative;
+    top: -5px;
+    color: darkgray;
+    font-size: 20px;
+}
+#div1{
+    position: relative;
+    left: 3px;
+    top: -10px;
+    border: 1px solid;
+    width: 300px;
+    height: 239px;
+    color: black;
+    font-size: 18px;
+}
+#div2{
+    border: 1px solid;
+    width: 340px;
+    height: 240px;
+    position: relative;
+    left: 350px;
+    top: -250px;
+    color: black;
+    font-size: 18px;
+}
+.tr1{
+    color: brown;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+.span4{
+    position: relative;
+    color: darkgray;
+    right: -78px;
+}
+.p2{
+    position: relative;
+    top: -240px;
+    left:9px;
+    color: darkgray;
+    font-size: 20px;
+    position: relative;
+    right: -900px;
+}
+#div3{
+    border: 1px solid;
+    width: 1070px;
+    height: 200px;
+    position: relative;
+    right: -6px;
+    top: -230px;
+    color: black;
+    font-size: 18px;
+}
+#div4{
+    border: 1px solid;
+    width: 1070px;
+    height: 200px;
+    position: relative;
+    right: -6px;
+    top: -210px;
+    color: black;
+    font-size: 18px;
+}
+.span5{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    right: -660px;
+}
+.tr2{
+    position: relative;
+    right: -630px;
+}
+.span6{
+    position: relative;
+    top: 5px;
+}
+.img1{
+    position: relative;
+    top: -1px;
+}
+#table1{
+    position: relative;
+    top: -200px;
+    right: -230px;
+}
+.img2{
+    position: relative;
+    top: 0px;
+}
+.span7{
+    position: relative;
+    right: 133px;
+}
+.span8{
+    position: relative;
+    right: 160px;
+    top: 25px;
+}
+#table2{
+    position: relative;
+    top: -200px;
+    right: -230px;
+}
+#div5{
+    background: whitesmoke;
+    width: 1090px;
+    height: 1000px;
+    position: absolute;
+    top:120px;
+    right: 550px;
+}
+.img3{
+    position: relative;
+    top: -50px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>房间管理</title>
+  <link rel="stylesheet" href="css/roomcontl.css"/>
+</head>
+<body>
+<div id="div1">
+    <p>
+        <strong><span class="span1">酒店管理系统</span></strong>
+        <span class="span2">用户管理</span>&nbsp;&nbsp;
+        <span class="span2">房间管理</span>&nbsp;&nbsp;
+        <span class="span2">订单管理</span>&nbsp;&nbsp;
+    </p>
+</div>
+<div id="div2">
+    <div>
+        <p id="header"><img src="picture/fan.png" class="img1"/>首页 > 房间管理</p>
+        <p class="p1">——————————————————————————————————————————————</p>
+        <form action="" method="post">
+            <p><strong>房间号</strong><input type="text" name="room" placeholder="房间号"/></p>
+            <p><strong>价格</strong>&nbsp;&nbsp; <input type="text" name="price" placeholder="价格(单位：元)"/></p>
+            <p><strong>星级</strong>&nbsp;&nbsp;&nbsp;<input type="text" name="start" placeholder="房间星级，评分区间0-5"/></p>
+        </form>
+        <div id="div">
+            <p><span>是否推荐</span>
+                <select style="width: 150px">
+                    <option selected="selected">未推荐</option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </p>
+            <p><span>荣系类别</span>
+                <select style="width: 150px">
+                    <option selected="selected">请选择房间类型...</option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </p>
+            <p><span class="p2">菜谱简介</span>  <textarea cols="90" rows="30"></textarea></p>
+            <p class="p3">
+                <input type="submit" value="保存"/>
+                <input type="submit" value="返回">
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

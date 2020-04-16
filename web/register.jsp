@@ -1,0 +1,99 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Lenovo
+  Date: 2020/4/15
+  Time: 15:40
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+    <link href="css/register.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="top">
+
+    </div>
+    <div id="loginframe">
+    <form action="/RegisterServlet" method="post" id="form1">
+        <table align="center">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <p>&nbsp;</p>
+                    <p id="bigfont">注册</p>
+                    <p>&nbsp;</p>
+                    <p>用户名</p>
+                    <p><input type="text" name="username" id="username" class="required" placeholder="&nbsp;登录账号，中、英文均可，建议使用英文"/></p>
+                    <p>&nbsp;</p>
+                    <p>真实姓名</p>
+                    <p><input type="text" name="realname" id="realName" placeholder="&nbsp;填写您的真实姓名"/></p>
+                    <p>&nbsp;</p>
+                    <p>手机号</p>
+                    <p><input type="text" name="phone" id="number" placeholder="&nbsp;填写您的手机号"/></p></p>
+                    <p>&nbsp;</p>
+                    <p>密码</p>
+                    <p><input type="password" name="password" id="password" class="required" placeholder="&nbsp;6-20位英文、数字、符号，区分大小写"/></p>
+                    <p>&nbsp;</p>
+                    <p>确认密码</p>
+                    <p><input type="password" id="re_password" class="required" placeholder="&nbsp;再输入一次密码"/></p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <button type="submit" id="send">注册</button>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+
+
+    <script src="js/jquery-1.12.4.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            <!--function registers() {-->
+                $("#send").submit(function () {
+                    var name = ${"#username"}.val();
+                    if (name.length == 0) {
+                        alert("用户名不能为空...");
+                    } else if (name.length > 20) {
+                        alert("用户名过长，请输入20位字符以内...");
+                    }
+
+                    var real = ${"realName"}.val();
+                    if (real.length == 0) {
+                        alert("真实姓名不能为空...");
+                    }
+
+                    var phone = ${"phone"}.val();
+                    if (phone.length == 0) {
+                        alert("手机号不能为空...");
+                    } else if (phone.length > 11) {
+                        alert("手机号格式输入不正确...");
+                    }
+
+                    var pwd = ${"password"}.val();
+                    if (pwd.length == 0) {
+                        alert("密码不能为空...");
+                    } else if (pwd.length != /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$/) {
+                        alert("密码格式输入不正确，请输入6-20位英文、数字、符号，区分大小写的密码格式...");
+                    }
+                });
+            <!--}-->
+        })
+    </script>
+</body>
+</html>

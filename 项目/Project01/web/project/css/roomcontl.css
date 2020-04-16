@@ -1,0 +1,78 @@
+#div1{
+    height: 50px;
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+.span1{
+    position: relative;
+    right: -50px;
+    bottom: -15px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.span2{
+    position: relative;
+    right: -90px;
+    bottom: -13px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.p1{
+    position: relative;
+    right: -5px;
+    top: -36px;
+}
+#header{
+    position: relative;
+    top: -20px;
+    color: aqua;
+    font-size: 20px;
+}
+.img1{
+    position: relative;
+    bottom: -6px;
+}
+form{
+    position: relative;
+    top: -30px;
+    font-size: 14px;
+}
+#div{
+    position: relative;
+    top: -30px;
+}
+.p2{
+    position: relative;
+    right: 5px;
+    bottom: 440px;
+}
+span{
+    font-weight: bold;
+}
+.p3{
+    position: relative;
+    left: 100px;
+}
+textarea{
+    position: relative;
+    right: -25px;
+}
+select{
+    position: relative;
+    right: -25px;
+}
+input{
+    position: relative;
+    right: -50px;
+}
+#div2{
+    background: whitesmoke;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 90px;
+    right: 750px;
+}
